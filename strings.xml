@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_to_play_with_us">Login to play with us</string>
+    <string name="play">Play</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+</resources>
