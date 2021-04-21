@@ -21,4 +21,12 @@
     <string name="levels">Levels</string>
     <string name="back">back</string>
     <string name="parametres">parametres</string>
+    <string name="logolevel1">logolevel1</string>
+
+    <string name="level_01">Level 01</string>
+    <string name="_0_056_x_1_000">0.056 x 1 000 = ?</string>
+    <string name="_0_56">0.56</string>
+    <string name="_5_6">5.6</string>
+    <string name="_56">56</string>
+    <string name="_560">560</string>
 </resources>
