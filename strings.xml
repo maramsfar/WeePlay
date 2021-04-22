@@ -23,10 +23,80 @@
     <string name="parametres">parametres</string>
     <string name="logolevel1">logolevel1</string>
 
+
     <string name="level_01">Level 01</string>
     <string name="_0_056_x_1_000">0.056 x 1 000 = ?</string>
     <string name="_0_56">0.56</string>
     <string name="_5_6">5.6</string>
     <string name="_56">56</string>
     <string name="_560">560</string>
+    <string name="niveau1">Level 01</string>
+    <string name="niveau2">Level 02</string>
+    <string name="niveau3">Level 03</string>
+    <string name="niveau4">Level 04</string>
+    <string name="niveau5">Level 05</string>
+    <string name="niveau6">Level 06</string>
+    <string name="niveau7">Level 07</string>
+    <string name="niveau8">Level 08</string>
+    <string name="niveau9">Level 09</string>
+    <string name="niveau10">Level 10</string>
+    <string name="_0_091_100">0.091 / 10 = ?</string>
+    <string name="_9_1">9.1</string>
+    <string name="_0_91">0.91</string>
+    <string name="_0_00091">0.00091</string>
+    <string name="_0_000091">0.000091</string>
+    <string name="_0_091_10">0.091/10</string>
+    <string name="_0_0091">0.0091</string>
+    <string name="_910">910</string>
+    <string name="_13_4_9_5">13⁄4 + 9⁄5</string>
+    <string name="_20">20</string>
+    <string name="_101">101</string>
+    <string name="_117">117</string>
+    <string name="_121">121</string>
+    <string name="_6_15_1_13">6⁄15 - 1⁄13</string>
+    <string name="_21">21</string>
+    <string name="_63">63</string>
+    <string name="_78">78</string>
+    <string name="_82">82</string>
+    <string name="_1_est_un_nombre_premier">1 est un nombre premier ?</string>
+    <string name="vrai">Vrai</string>
+    <string name="faux">Faux</string>
+    <string name="r_soudre_5_3x_5_3x_9">Résoudre 5(3x + 5) = 3x + 9</string>
+    <string name="quot1">¾</string>
+    <string name="quot2">-¾</string>
+    <string name="quot3">⁴/³</string>
+    <string name="quot4">-⁴/³</string>
+    <string name="_29_est_un_nombre_premier">29 est un nombre premier ?</string>
+    <string name="title_activity_level08math">activityLevel08math</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="_2_5_x_2_3_x_0_5">-2,5 x (-2) + 3 x (-0,5)</string>
+    <string name="_3_5">3.5</string>
+    <string name="_1_5">1.5</string>
+    <string name="_0_5">0.5</string>
+    <string name="_5_25">5.25</string>
+    <string name="calculer_la_surface_de_la_partie_rose">Calculer la surface de la partie rose !</string>
+    <string name="monquizz">monquizz</string>
+    <string name="_16">16</string>
+    <string name="_25">25</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="quel_nombre_obtient_on_en_divisant_300_par_un_tiers">Quel nombre obtient-on en divisant 300 par un tiers ?</string>
+    <string name="_300">300</string>
+    <string name="_600">600</string>
+    <string name="_900">900</string>
+    <string name="_1200">1200</string>
+    <string name="categories">Categories</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="literature">Literature</string>
+    <string name="button">Button</string>
+    <string name="spot_the_difference">Spot the difference</string>
+    <string name="coding">Coding</string>
+    <string name="param">param</string>
 </resources>
