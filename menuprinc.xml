@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuPrincipal">
+
+    <ImageView
+        android:id="@+id/monlogomath0"
+        android:layout_width="96dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="283dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="598dp"
+        android:contentDescription="@string/mylogomath"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_1" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="33dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="630dp"
+        android:contentDescription="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/monlogomath0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sans_titre__9_" />
+
+    <TextView
+        android:id="@+id/categs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="465dp"
+        android:fontFamily="@font/arizonia"
+        android:text="@string/categories"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/categ1"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="338dp"
+        android:text="@string/mathematics"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categs" />
+
+    <Button
+        android:id="@+id/categ2"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="274dp"
+        android:text="@string/literature"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categ1" />
+
+    <Button
+        android:id="@+id/categ3"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="201dp"
+        android:text="@string/spot_the_difference"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categ2" />
+
+    <Button
+        android:id="@+id/categ4"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="129dp"
+        android:text="@string/coding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categ3" />
+
+    <ImageView
+        android:id="@+id/param"
+        android:layout_width="49dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="346dp"
+        android:layout_marginBottom="15dp"
+        android:contentDescription="@string/param"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back"
+        app:srcCompat="@drawable/sans_titre__10_" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
