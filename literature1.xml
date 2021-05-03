@@ -1,1 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".litt_1">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="112dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="350dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324"
+        app:srcCompat="@drawable/image_1" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="123dp"
+        android:backgroundTint="@android:color/transparent"
+        android:onClick="back"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sans_titre_9_"
+        android:contentDescription="@string/todo" />
+
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="350dp"
+        android:text="@string/to_be_or_not_to_be_that_is_the_question"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/quest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="357dp"
+        android:text="@string/who_said_this"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quote" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="216dp"
+        android:text="@string/shakespeare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quest" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="220dp"
+        android:text="@string/jane_austin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/quest" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginBottom="137dp"
+        android:text="@string/james_joyce"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="133dp"
+        android:text="@string/franz_kafka"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/paramparam"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="326dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/parammam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:srcCompat="@drawable/sans_titre_10_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
