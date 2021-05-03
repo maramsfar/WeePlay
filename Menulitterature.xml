@@ -1,1 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_literature">
 
+    <ImageView
+        android:id="@+id/monlogomath0"
+        android:layout_width="138dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="598dp"
+        android:contentDescription="@string/mylogomath"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/image_1" />
+
+    <TextView
+        android:id="@+id/Montitremath0"
+        android:layout_width="145dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="122dp"
+        android:fontFamily="@font/bilbo_swash_caps"
+        android:text="@string/literature"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/Montitremath1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Montitremath1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="426dp"
+        android:text="@string/levels"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Montitremath0" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/level2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/b5"
+        app:layout_constraintEnd_toStartOf="@+id/b3"
+        app:layout_constraintStart_toEndOf="@+id/b1"
+        app:layout_constraintTop_toBottomOf="@+id/Montitremath1" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/level3"
+        app:layout_constraintBottom_toTopOf="@+id/b6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b2"
+        app:layout_constraintTop_toBottomOf="@+id/Montitremath1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="litt"
+        android:text="@string/level1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/b4"
+        app:layout_constraintEnd_toStartOf="@+id/b2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Montitremath1" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:text="@string/level4"
+        app:layout_constraintBottom_toTopOf="@+id/b7"
+        app:layout_constraintEnd_toStartOf="@+id/b5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="81dp"
+        android:layout_height="77dp"
+        android:textSize="20sp"
+        android:text="@string/level5"
+        app:layout_constraintBottom_toTopOf="@+id/b8"
+        app:layout_constraintEnd_toStartOf="@+id/b6"
+        app:layout_constraintStart_toEndOf="@+id/b4"
+        app:layout_constraintTop_toBottomOf="@+id/b2" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:textSize="20sp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/level6"
+        app:layout_constraintBottom_toTopOf="@+id/b9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b5"
+        app:layout_constraintTop_toBottomOf="@+id/b3" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:text="@string/level7"
+        app:layout_constraintBottom_toTopOf="@+id/b10"
+        app:layout_constraintEnd_toStartOf="@+id/b8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b4" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="112dp"
+        android:text="@string/level8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/b9"
+        app:layout_constraintStart_toEndOf="@+id/b7"
+        app:layout_constraintTop_toBottomOf="@+id/b5" />
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:textSize="20sp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="112dp"
+        android:text="@string/level9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b8"
+        app:layout_constraintTop_toBottomOf="@+id/b6" />
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/level10"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b7" />
+
+    <ImageView
+        android:id="@+id/parametres"
+        android:layout_width="54dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="528dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="27dp"
+        android:contentDescription="@string/parametres"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b10"
+        app:layout_constraintTop_toBottomOf="@+id/monlogomath0"
+        app:srcCompat="@drawable/sans_titre_10_" />
+</androidx.constraintlayout.widget.ConstraintLayout>
